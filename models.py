@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 """
 LGFEN model zoo.
-
-* LGFEN: Log-aware Graph Feature-Enhanced Network
+* LGFEN: Graph Feature Enhancement Network
     - DEG: directional edge gating
     - TEB: temporal encoding branch
-    - ENA: edge normalization augmentation
+    - ENA: edge-to-node feature enhancement
     - GF:  gated fusion of edge and node representations
 * GNN baselines: GCN, GAT, GraphSAGE
 * Non-graph baselines: CNN-1D, BiLSTM, Transformer
