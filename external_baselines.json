@@ -1,0 +1,48 @@
+{
+  "portmap": {
+    "n": 28726,
+    "labels": {
+      "0": 691,
+      "1": 28035
+    },
+    "all_benign": {
+      "accuracy": 0.024054863190141336,
+      "balanced_accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "positive_rate": 0.0
+    },
+    "all_attack": {
+      "accuracy": 0.9759451368098586,
+      "balanced_accuracy": 0.5,
+      "precision": 0.9759451368098586,
+      "recall": 1.0,
+      "f1": 0.9878261482355843,
+      "positive_rate": 1.0
+    }
+  },
+  "udplag_balanced": {
+    "n": 5056,
+    "labels": {
+      "0": 558,
+      "1": 4498
+    },
+    "all_benign": {
+      "accuracy": 0.11036392405063292,
+      "balanced_accuracy": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "positive_rate": 0.0
+    },
+    "all_attack": {
+      "accuracy": 0.8896360759493671,
+      "balanced_accuracy": 0.5,
+      "precision": 0.8896360759493671,
+      "recall": 1.0,
+      "f1": 0.9415951433954365,
+      "positive_rate": 1.0
+    }
+  }
+}

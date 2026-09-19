@@ -1,0 +1,10 @@
+{
+  "dataset": "CIC-DDoS2019 Portmap",
+  "training": "CIC-IDS2017 seed 42; no external fine-tuning",
+  "n_flows": 191694,
+  "accuracy": 0.01510741076924682,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "predicted_positive_rate": 0.009588197857001263
+}

@@ -1,0 +1,26 @@
+{
+  "split": {
+    "train": 23566,
+    "val": 5083,
+    "test": 5056
+  },
+  "label_counts": {
+    "train": {
+      "0": 2574,
+      "1": 20992
+    },
+    "val": {
+      "0": 573,
+      "1": 4510
+    },
+    "test": {
+      "0": 558,
+      "1": 4498
+    }
+  },
+  "zero_filled_features": [
+    "Fwd RST Flags",
+    "Bwd RST Flags"
+  ],
+  "scaler_fit_on": "CIC-DDoS2019 train split only"
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "CIC-DDoS2019 udplag_balanced",
+  "training": "CIC-IDS2017 pretraining + labeled CIC-DDoS2019 train adaptation",
+  "n_test_flows": 5056,
+  "accuracy": 0.9986155063291139,
+  "precision": 1.0,
+  "recall": 0.9984437527790129,
+  "f1": 0.9992212704416509,
+  "predicted_positive_rate": 0.888251582278481
+}

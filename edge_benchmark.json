@@ -1,0 +1,11 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+  "torch": "2.14.0+cpu",
+  "device": "cpu",
+  "graph": "processed/graph_test.pt",
+  "edges_per_window": 2232,
+  "runs": 20,
+  "warmup": 5,
+  "mean_ms": 7.941310000023804
+}

@@ -1,0 +1,146 @@
+{
+  "note": "Exploratory seed-level statistics; n=3 paired seeds, no claim of high statistical power.",
+  "summary": {
+    "LGFEN": {
+      "seeds": [
+        "2026",
+        "42",
+        "7"
+      ],
+      "f1_mean": 0.9881216963331213,
+      "f1_sd": 0.005481218652803737,
+      "f1_ci95_t": [
+        0.9745055943713422,
+        1.0
+      ]
+    },
+    "GCN": {
+      "seeds": [
+        "2026",
+        "42",
+        "7"
+      ],
+      "f1_mean": 0.9722298134023782,
+      "f1_sd": 0.004544759293043588,
+      "f1_ci95_t": [
+        0.9609400054517009,
+        0.9835196213530556
+      ]
+    },
+    "GAT": {
+      "seeds": [
+        "2026",
+        "42",
+        "7"
+      ],
+      "f1_mean": 0.9754883339610307,
+      "f1_sd": 0.0035117830660976656,
+      "f1_ci95_t": [
+        0.9667645812110514,
+        0.9842120867110101
+      ]
+    },
+    "GraphSAGE": {
+      "seeds": [
+        "2026",
+        "42",
+        "7"
+      ],
+      "f1_mean": 0.973452946707868,
+      "f1_sd": 0.003899955052560384,
+      "f1_ci95_t": [
+        0.9637649212876714,
+        0.9831409721280645
+      ]
+    },
+    "CNN": {
+      "seeds": [
+        "2026",
+        "42",
+        "7"
+      ],
+      "f1_mean": 0.9891795547145694,
+      "f1_sd": 0.0003465266463243865,
+      "f1_ci95_t": [
+        0.9883187348043087,
+        0.9900403746248302
+      ]
+    },
+    "BiLSTM": {
+      "seeds": [
+        "2026",
+        "42",
+        "7"
+      ],
+      "f1_mean": 0.9926943318118777,
+      "f1_sd": 8.741453414618812e-06,
+      "f1_ci95_t": [
+        0.992672616837795,
+        0.9927160467859605
+      ]
+    },
+    "Transformer": {
+      "seeds": [
+        "2026",
+        "42",
+        "7"
+      ],
+      "f1_mean": 0.9941536757597932,
+      "f1_sd": 0.001265441974826072,
+      "f1_ci95_t": [
+        0.9910101436280959,
+        0.9972972078914905
+      ]
+    }
+  },
+  "paired_comparisons": {
+    "GCN": {
+      "paired_difference_lgfen_minus_model_mean": 0.015891882930743024,
+      "paired_difference_sd": 0.009305392668256739,
+      "paired_t_stat": 2.9580211867770774,
+      "paired_t_p": 0.09780735248903037,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.25
+    },
+    "GAT": {
+      "paired_difference_lgfen_minus_model_mean": 0.012633362372090487,
+      "paired_difference_sd": 0.004931534073622556,
+      "paired_t_stat": 4.437082897982698,
+      "paired_t_p": 0.04722413443721418,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.25
+    },
+    "GraphSAGE": {
+      "paired_difference_lgfen_minus_model_mean": 0.01466874962525333,
+      "paired_difference_sd": 0.008385039966772097,
+      "paired_t_stat": 3.030041566304708,
+      "paired_t_p": 0.09383911309687373,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.25
+    },
+    "CNN": {
+      "paired_difference_lgfen_minus_model_mean": -0.0010578583814481919,
+      "paired_difference_sd": 0.005319260654495787,
+      "paired_t_stat": -0.3444584845324762,
+      "paired_t_p": 0.7633496729544041,
+      "wilcoxon_stat": 3.0,
+      "wilcoxon_p": 1.0
+    },
+    "BiLSTM": {
+      "paired_difference_lgfen_minus_model_mean": -0.004572635478756378,
+      "paired_difference_sd": 0.005476764603145202,
+      "paired_t_stat": -1.4461160096509822,
+      "paired_t_p": 0.2850510302939167,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.25
+    },
+    "Transformer": {
+      "paired_difference_lgfen_minus_model_mean": -0.006031979426671996,
+      "paired_difference_sd": 0.006414547519583501,
+      "paired_t_stat": -1.6287500880318457,
+      "paired_t_p": 0.24491471528469685,
+      "wilcoxon_stat": 0.0,
+      "wilcoxon_p": 0.25
+    }
+  }
+}

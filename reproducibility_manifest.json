@@ -1,0 +1,12 @@
+{
+  "code_stage": "corrected_recheck",
+  "dataset": "CIC-IDS2017",
+  "sampling": "150000 benign + 150000 malicious, random_state=42",
+  "split": "five-tuple group split 70/15/15, random_state=42",
+  "model": "LGFEN with directional ENA, scalar GF gate, hid=64, head=270->128->1",
+  "training": "BCEWithLogits, Adam lr=1e-3, weight_decay=1e-4, 40 epochs, patience=8",
+  "primary_seeds": [42, 2026, 7, 123, 999],
+  "extended_lgfen_seeds": [42, 2026, 7, 123, 999, 11, 22, 33, 44, 55],
+  "external_protocol": "CIC-IDS2017 pretraining; target scaler and five-tuple split fitted within CIC-DDoS2019 target train only",
+  "edge_hardware": "not measured; edge_benchmark.py provided"
+}
